@@ -6,14 +6,6 @@
 	/*  FUNCTION TO STOP LOCAL AND YOUTUBE VIDEOS IN SLIDESHOW
     /* ----------------------------------------------------------- */
 
-	function stop_videos() {
-		var video = document.getElementById("video");
-		if (video.paused !== true && video.ended !== true) {
-			video.pause();
-		}
-		$('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
-	}
-
 	$(window).on("load", function() {
 
 		/* ----------------------------------------------------------- */
@@ -28,14 +20,6 @@
 	});
 
 	$(document).ready(function() {
-
-		/* ----------------------------------------------------------- */
-		/*  STOP VIDEOS
-        /* ----------------------------------------------------------- */
-
-		$('.slideshow nav span').on('click', function () {
-			stop_videos();
-		});
 
 		/* ----------------------------------------------------------- */
 		/*  MOBILE MENU
