@@ -1,0 +1,799 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Himanshu - Personal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Template Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+  <!-- Template CSS Files -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/component.css" rel="stylesheet">
+  <link href="css/circle.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- CSS Skin File -->
+  <link href="css/skins/yellow.css" rel="stylesheet">
+  <!-- Live Style Switcher - demo only -->
+  <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css">
+  <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css">
+  <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css">
+  <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css">
+  <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css">
+  <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css">
+  <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css">
+  <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css">
+  <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css">
+  <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css">
+  <link rel="stylesheet" type="text/css" href="css/styleswitcher.css">
+  <!-- Modernizr JS File -->
+  <script src="js/modernizr.min.js"></script>
+  <!-- EmailJS for sending email-->
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init('lVQUHZRSsG1d7KDG-'); // Replace with your actual EmailJS User ID
+    })();
+  </script>
+</head>
+
+<body class="dark home-page">
+  <!-- PRELOADER STARTS -->
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+  <!-- PRELOADER ENDS -->
+  <!-- Header Starts -->
+  <header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul id="desktop-nav" class="icon-menu d-none d-lg-block">
+      <li class="icon-box desktop-nav-element active">
+        <i class="fa fa-home"></i>
+        <div>
+          <h2>Home</h2>
+        </div>
+      </li>
+      <li class="icon-box desktop-nav-element">
+        <i class="fa fa-user"></i>
+        <div>
+          <h2>About</h2>
+        </div>
+      </li>
+      <li class="icon-box desktop-nav-element">
+        <i class="fa fa-briefcase"></i>
+        <div>
+          <h2>Portfolio</h2>
+        </div>
+      </li>
+      <li class="icon-box desktop-nav-element">
+        <i class="fa fa-envelope-open"></i>
+        <div>
+          <h2>Contact</h2>
+        </div>
+      </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav class="d-block d-lg-none">
+      <div class="inputmobile" id="inputmobile">
+        <div id="trigger-mobile" class="trigger-mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="list-unstyled" id="mobile-nav">
+          <li class="mobile-nav-element home-link active">
+            <div>
+              <i class="fa fa-home"></i>
+              <span>Home</span>
+            </div>
+          </li>
+          <li class="mobile-nav-element">
+            <div>
+              <i class="fa fa-user"></i>
+              <span>About</span>
+            </div>
+          </li>
+          <li class="mobile-nav-element">
+            <div>
+              <i class="fa fa-folder-open"></i>
+              <span>Portfolio</span>
+            </div>
+          </li>
+          <li class="mobile-nav-element">
+            <div>
+              <i class="fa fa-envelope-open"></i>
+              <span>Contact</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+  </header>
+  <!-- Header Ends -->
+  <!-- Main Content Starts -->
+  <div class="pages">
+    <!-- Home Starts -->
+    <div class="page page--current" id="home">
+      <div class="home">
+        <div class="container-fluid main-container container-home p-0">
+          <div class="color-block d-none d-lg-block"></div>
+          <div class="row home-details-container align-items-center">
+            <img class="col-lg-4 position-fixed d-none d-lg-block" src="img/dark.jpg" alt="">
+            <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
+              <div>
+                <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
+                  alt="my picture">
+                <h1 class="text-uppercase poppins-font">I'm himanshu kumar. <span>Software Engineer</span>
+                </h1>
+                <p class="open-sans-font">I'm a Software Engineer focused on crafting clean & user‑friendly
+                  experiences. I am passionate about building excellent software that improves the lives of those around
+                  me.</p>
+                <a id="link-about" class="button">
+                  <span class="button-text">more about me</span>
+                  <span class="button-icon fa fa-arrow-right"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Home Ends -->
+    <!-- About Starts -->
+    <div class="page" id="about">
+      <!-- Main Content Starts -->
+      <!-- Section Title Starts -->
+      <div class="title-section text-left text-sm-center">
+        <h2>ABOUT <span>ME</span>
+        </h2>
+        <span class="title-bg">Resume</span>
+      </div>
+      <!-- Section Title Ends -->
+      <div class="about">
+        <div class="main-content">
+          <div class="container">
+            <div class="row">
+              <!-- Personal Info Starts -->
+              <div class="col-12 col-lg-5 col-xl-6">
+                <div class="row">
+                  <div class="col-12">
+                    <h3 class="text-uppercase custom-title mb-0 ft-wt-600">personal infos</h3>
+                  </div>
+                  <div class="col-12 d-block d-sm-none">
+                    <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile" alt="my picture">
+                  </div>
+                  <div class="col-6">
+                    <ul class="about-list list-unstyled open-sans-font">
+                      <li>
+                        <span class="title">first name :</span>
+                        <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Himanshu</span>
+                      </li>
+                      <li>
+                        <span class="title">last name :</span>
+                        <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Kumar</span>
+                      </li>
+                      <li>
+                        <span class="title">Age :</span>
+                        <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">24 Years</span>
+                      </li>
+                      <li>
+                        <span class="title">Nationality :</span>
+                        <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Indian</span>
+                      </li>
+                      <li>
+                        <span class="title">Freelance :</span>
+                        <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Available</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-6">
+                    <ul class="about-list list-unstyled open-sans-font">
+                      <li>
+                        <span class="title">Address :</span>
+                        <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Jharkhand</span>
+                      </li>
+                      <li>
+                        <span class="title">phone :</span>
+                        <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+91-7256913863</span>
+                      </li>
+                      <li>
+                        <span class="title">Email :</span>
+                        <span
+                          class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">ag.himanshug@gmail.com</span>
+                      </li>
+                      <li>
+                        <span class="title">Linkedin :</span>
+                        <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">him-ag-anshu</span>
+                      </li>
+                      <li>
+                        <span class="title">langages :</span>
+                        <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Hindi,
+                          English</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 mt-3">
+                    <a class="button" href="/resume/resume.pdf" download="HimanshuResume">
+                      <span class="button-text">Download CV</span>
+                      <span class="button-icon fa fa-download"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Personal Info Ends -->
+              <!-- Boxes Starts -->
+              <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="box-stats with-margin">
+                      <h3 class="poppins-font position-relative">2</h3>
+                      <p class="open-sans-font m-0 position-relative text-uppercase">years of <span
+                          class="d-block">experience</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="box-stats with-margin">
+                      <h3 class="poppins-font position-relative">6</h3>
+                      <p class="open-sans-font m-0 position-relative text-uppercase">completed <span
+                          class="d-block">projects</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="box-stats">
+                      <h3 class="poppins-font position-relative">2</h3>
+                      <p class="open-sans-font m-0 position-relative text-uppercase">Happy <span
+                          class="d-block">customers</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="box-stats">
+                      <h3 class="poppins-font position-relative">3</h3>
+                      <p class="open-sans-font m-0 position-relative text-uppercase">awards <span
+                          class="d-block">won</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Boxes Ends -->
+            </div>
+            <hr class="separator">
+            <!-- Skills Starts -->
+            <div class="row">
+              <div class="col-12">
+                <h3 class="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">My
+                  Skills</h3>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p89">
+                  <span>89%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">html</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p80">
+                  <span>80%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">javascript</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p70">
+                  <span>70%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">css</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p90">
+                  <span>90%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">jquery</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p76">
+                  <span>76%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">react</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p87">
+                  <span>87%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">ASP .NET Core</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p82">
+                  <span>82%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">C#</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p45">
+                  <span>45%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Docker</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p88">
+                  <span>88%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">SQL</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p83">
+                  <span>83%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Entity Framework</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p83">
+                  <span>83%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Repository Pattern</h6>
+              </div>
+              <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p68">
+                  <span>68%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Builder Pattern</h6>
+              </div>
+            </div>
+            <!-- Skills Ends -->
+            <hr class="separator mt-1">
+            <!-- Experience & Education Starts -->
+            <div class="row">
+              <div class="col-12">
+                <h3 class="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">Experience
+                  <span>&</span> Education
+                </h3>
+              </div>
+              <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                  <ul>
+                    <li>
+                      <div class="icon">
+                        <i class="fa fa-briefcase"></i>
+                      </div>
+                      <span class="time open-sans-font text-uppercase">2024 - Present</span>
+                      <h5 class="poppins-font text-uppercase">Senior Software Engineer <span
+                          class="place open-sans-font">CubeClick India</span>
+                      </h5>
+                      <p class="open-sans-font">Leading a team of developers to design and implement scalable software
+                        solutions. Responsible for code reviews, technical decision-making, and mentoring junior
+                        developers.</p>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fa fa-briefcase"></i>
+                      </div>
+                      <span class="time open-sans-font text-uppercase">2023 - 2024</span>
+                      <h5 class="poppins-font text-uppercase">Software Trainee <span
+                          class="place open-sans-font">CubeClick India</span>
+                      </h5>
+                      <p class="open-sans-font">Worked on several development projects using .NET and Angular, gaining
+                        hands-on experience in building responsive and dynamic applications.</p>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fa fa-briefcase"></i>
+                      </div>
+                      <span class="time open-sans-font text-uppercase">2021 - 2023</span>
+                      <h5 class="poppins-font text-uppercase">MCA <span class="place open-sans-font">Banras Hindu
+                          University, Varanasi</span>
+                      </h5>
+                      <p class="open-sans-font">Developed a solid foundation in software engineering concepts, focusing
+                        on advanced topics like data structures, algorithms, and distributed systems.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                  <ul>
+                    <li>
+                      <div class="icon">
+                        <i class="fa fa-graduation-cap"></i>
+                      </div>
+                      <span class="time open-sans-font text-uppercase">2020</span>
+                      <h5 class="poppins-font text-uppercase">Internship <span class="place open-sans-font">USOM IT
+                          Solutions Pvt Ltd</span>
+                      </h5>
+                      <p class="open-sans-font">Collaborated on projects involving full-stack web development and
+                        software testing. Gained exposure to Agile methodologies and best coding practices.</p>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fa fa-graduation-cap"></i>
+                      </div>
+                      <span class="time open-sans-font text-uppercase">2017 - 2020</span>
+                      <h5 class="poppins-font text-uppercase">BCA <span class="place open-sans-font">Vinoba Bhave
+                          University, Hazaribagh</span>
+                      </h5>
+                      <p class="open-sans-font">Acquired in-depth knowledge of programming languages, databases, and
+                        software development life cycles. Developed several projects as part of academic coursework.</p>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fa fa-graduation-cap"></i>
+                      </div>
+                      <span class="time open-sans-font text-uppercase">2015-2017</span>
+                      <h5 class="poppins-font text-uppercase">Intermediate <span class="place open-sans-font">JAC
+                          Board</span>
+                      </h5>
+                      <p class="open-sans-font">Focused on core subjects like Mathematics and Computer Science, which
+                        laid the foundation for my further education in computer applications.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Experience & Education Ends -->
+          </div>
+        </div>
+      </div>
+      <!-- Main Content Ends -->
+    </div>
+    <!-- About Ends -->
+    <!-- Portfolio Starts -->
+    <div class="page" id="portfolio">
+      <!-- Main Content Starts -->
+      <div class="portfolio">
+        <!-- Page Title Starts -->
+        <div class="title-section text-left text-sm-center">
+          <h2>my <span>portfolio</span>
+          </h2>
+          <span class="title-bg">works</span>
+        </div>
+        <!-- Page Title Ends -->
+        <div class="main-content text-center">
+          <div id="grid-gallery" class="container grid-gallery">
+            <!-- Portfolio Grid Starts -->
+            <div class="grid-wrap">
+              <ul class="row grid gridlist">
+                <!-- Portfolio Item Starts -->
+                <li>
+                  <figure>
+                    <img src="img/project/EHC.jfif" alt="Portolio Image">
+                    <div>
+                      <span>EduHelpCare</span>
+                    </div>
+                  </figure>
+                </li>
+                <!-- Portfolio Item Ends -->
+                <!-- Portfolio Item Starts -->
+                <li>
+                  <figure>
+                    <img src="img/project/ANP.jfif" alt="Portolio Image">
+                    <div>
+                      <span>Automate Naukri Profile</span>
+                    </div>
+                  </figure>
+                </li>
+                <!-- Portfolio Item Ends -->
+                <!-- Portfolio Item Starts -->
+                <li>
+                  <figure>
+                    <img src="img/project/MRS.jfif" alt="Portolio Image">
+                    <div>
+                      <span>Movie Recommended System</span>
+                    </div>
+                  </figure>
+                </li>
+                <!-- Portfolio Item Ends -->
+                <!-- Portfolio Item Starts -->
+                <li>
+                  <figure>
+                    <img src="img/project/FSS.jfif" alt="Portolio Image">
+                    <div>
+                      <span>File Sharing System</span>
+                    </div>
+                  </figure>
+                </li>
+                <!-- Portfolio Item Ends -->
+              </ul>
+            </div>
+            <!-- Portfolio Grid Ends -->
+            <!-- Portfolio Details Starts -->
+            <div class="slideshow">
+              <ul>
+                <!-- Portfolio Item Detail Starts -->
+                <li>
+                  <figure>
+                    <!-- Project Details Starts -->
+                    <figcaption>
+                      <h3>EduHelpCare</h3>
+                      <div class="row open-sans-font">
+                        <div class="col-12 col-sm-6 mb-2">
+                          <i class="fa fa-file-text-o pr-2"></i>
+                          <span class="project-label">Project </span>: <span class="ft-wt-600 uppercase">Software</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2">
+                          <i class="fa fa-user-o pr-2"></i>
+                          <span class="project-label">Status </span>: <span class="ft-wt-600 uppercase">On
+                            Process..</span>
+                        </div>
+                        <div class="col-12 col-sm-12 mb-2">
+                          <i class="fa fa-code pr-2"></i>
+                          <span class="project-label">Langages </span>: <span class="ft-wt-600 uppercase">HTML, CSS,
+                            Jquery, .net core 8.0 , C#, MSSQL Server</span>
+                        </div>
+                      </div>
+                    </figcaption>
+                    <!-- Project Details Ends -->
+                    <!-- Main Project Content Starts -->
+                    <img src="img/project/EHC.jfif" alt="Portolio Image">
+                    <!-- Main Project Content Ends -->
+                  </figure>
+                </li>
+                <!-- Portfolio Item Detail Ends -->
+                <!-- Portfolio Item Detail Starts -->
+                <li>
+                  <figure>
+                    <!-- Project Details Starts -->
+                    <figcaption>
+                      <h3>Automate Naukri Profile</h3>
+                      <div class="row open-sans-font">
+                        <div class="col-12 col-sm-12 mb-2">
+                          <i class="fa fa-code pr-2"></i>
+                          <span class="project-label">Langages/Technology </span>: <span class="ft-wt-600 uppercase">C#,
+                            Selenium,.net core </span>
+                        </div>
+                      </div>
+                    </figcaption>
+                    <!-- Project Details Ends -->
+                    <!-- Main Project Content Starts -->
+                    <img src="img/project/ANP2.jfif" alt="Portolio Image">
+                    <!-- Main Project Content Ends -->
+                  </figure>
+                </li>
+                <!-- Portfolio Item Detail Ends -->
+                <!-- Portfolio Item Detail Starts -->
+                <li>
+                  <figure>
+                    <!-- Project Details Starts -->
+                    <figcaption>
+                      <h3>Movie Recommended System</h3>
+                      <div class="row open-sans-font">
+                        <div class="col-6 mb-2">
+                          <i class="fa fa-file-text-o pr-2"></i>
+                          <span class="project-label">Project </span>: <span class="ft-wt-600 uppercase">College</span>
+                        </div>
+                        <div class="col-12 col-sm-12 mb-2">
+                          <i class="fa fa-code pr-2"></i>
+                          <span class="project-label">Langages/Technology </span>: <span
+                            class="ft-wt-600 uppercase">Python, streamlit, Recommender System</span>
+                        </div>
+                      </div>
+                    </figcaption>
+                    <!-- Project Details Ends -->
+                    <!-- Main Project Content Starts -->
+                    <div id="slider" class="carousel slide portfolio-slider" data-ride="carousel" data-interval="false">
+                      <ol class="carousel-indicators">
+                        <li data-target="#slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider" data-slide-to="1"></li>
+                        <li data-target="#slider" data-slide-to="2"></li>
+                      </ol>
+                      <!-- The slideshow -->
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/project/MRS.jpg" alt="slide 1">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/project/MRS2.jpg" alt="slide 2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/project/MRS3.jpg" alt="slide 3">
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Main Project Content Ends -->
+                  </figure>
+                </li>
+                <!-- Portfolio Item Detail Ends -->
+                <!-- Portfolio Item Detail Starts -->
+                <li>
+                  <figure>
+                    <!-- Project Details Starts -->
+                    <figcaption>
+                      <h3>File Sharing System</h3>
+                      <div class="row open-sans-font">
+                        <div class="col-6 mb-2">
+                          <i class="fa fa-file-text-o pr-2"></i>
+                          <span class="project-label">Project </span>: <span class="ft-wt-600 uppercase">College</span>
+                        </div>
+                        <div class="col-12 mb-2">
+                          <i class="fa fa-code pr-2"></i>
+                          <span class="project-label">Langages </span>: <span class="ft-wt-600 uppercase">HTML, CSS,
+                            Bootstrap, .net 3.0, C#, Entity Framework, LINQ</span>
+                        </div>
+                      </div>
+                    </figcaption>
+                    <!-- Project Details Ends -->
+                    <!-- Main Project Content Starts -->
+                    <img src="img/project/FSS.jfif" alt="Portolio Image">
+                    <!-- Main Project Content Ends -->
+                  </figure>
+                </li>
+                <!-- Portfolio Item Detail Ends -->
+              </ul>
+              <!-- Portfolio Navigation Starts -->
+              <nav>
+                <span class="icon nav-prev">
+                  <img src="img/projects/navigation/left-arrow.png" alt="previous">
+                </span>
+                <span class="icon nav-next">
+                  <img src="img/projects/navigation/right-arrow.png" alt="next">
+                </span>
+                <span class="nav-close">
+                  <img src="img/projects/navigation/close-button.png" alt="close">
+                </span>
+              </nav>
+              <!-- Portfolio Navigation Ends -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content Ends -->
+    </div>
+    <!-- Portfolio Ends -->
+    <!-- Contact Starts -->
+    <div class="page" id="contact">
+      <div class="contact">
+        <div class="title-section text-left text-sm-center">
+          <h2>get in <span>touch</span>
+          </h2>
+          <span class="title-bg">contact</span>
+        </div>
+        <div class="main-content">
+          <div class="container">
+            <div class="row">
+              <!-- Left Side Starts -->
+              <div class="col-12 col-lg-4">
+                <h3 class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">Don't be shy !</h3>
+                <p class="open-sans-font mb-3">Let's connect! I'm always excited to collaborate on innovative projects,
+                  explore fresh ideas, and work together to bring your vision to life. Don’t hesitate to reach out!</p>
+                <p class="open-sans-font custom-span-contact position-relative">
+                  <i class="fa fa-envelope-open position-absolute"></i>
+                  <span class="d-block">mail me</span>ag.himanshug@gmail.com
+                </p>
+                <p class="open-sans-font custom-span-contact position-relative">
+                  <i class="fa fa-phone-square position-absolute"></i>
+                  <span class="d-block">call me</span>+91-7256913863
+                </p>
+                <ul class="social list-unstyled pt-1 mb-5">
+                  <li class="facebook">
+                    <a title="Github" href="https://github.com/ag-Himanshu17">
+                      <i class="fa fa-github"></i>
+                    </a>
+                  </li>
+                  <li class="twitter">
+                    <a title="Twitter" href="https://x.com/Himanshumihir">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="youtube">
+                    <a title="Youtube" href="https://www.youtube.com/@chazerexpert1715/videos">
+                      <i class="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li class="dribbble">
+                    <a title="Linkedin" href="https://www.linkedin.com/in/him-ag-anshu/">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Left Side Ends -->
+              <!-- Contact Form Starts -->
+              <div class="col-12 col-lg-8">
+                <form id="contact-form">
+                  <div class="contactform">
+                    <div class="row">
+                      <div class="col-12 col-md-4">
+                        <input autocomplete="off" type="text" name="name" placeholder="YOUR NAME" required>
+                      </div>
+                      <div class="col-12 col-md-4">
+                        <input autocomplete="off" type="email" name="email_id" placeholder="YOUR EMAIL" required>
+                      </div>
+                      <div class="col-12 col-md-4">
+                        <input autocomplete="off" type="text" name="subject" placeholder="YOUR SUBJECT" required>
+                      </div>
+                      <div class="col-12">
+                        <textarea name="message" placeholder="YOUR MESSAGE" required></textarea>
+                        <button type="submit" class="button">
+                          <span class="button-text">Send Message</span>
+                          <span class="button-icon fa fa-send"></span>
+                        </button>
+                      </div>
+                      <div class="col-12 form-message">
+                        <span class="output_message text-center font-weight-600 text-uppercase"></span>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Contact Form Ends -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Ends -->
+  </div>
+  <!-- Main Content Ends -->
+  <!-- Template JS Files -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/styleswitcher.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/cbpGridGallery.js"></script>
+  <script src="js/jquery.hoverdir.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/form.js"></script>
+
+</body>
+
+<!-- Mirrored from slimhamdi.net/tunis/demos/dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 19:53:30 GMT -->
+
+</html>
